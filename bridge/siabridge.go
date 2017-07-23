@@ -17,7 +17,7 @@ import (
 )
 
 // How many seconds to delay between cache/db management operations
-const MANAGER_DELAY_SEC = 5
+const MANAGER_DELAY_SEC = 30
 
 // Global ticker for cache management
 var g_cache_ticker *time.Ticker
